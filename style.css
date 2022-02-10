@@ -5,10 +5,10 @@ body {
     background-image: url('images/pattern-background-desktop.svg');
     background-repeat: no-repeat;
     background-size: 100%;
+    font-family: 'Red Hat Display', sans-serif;
 }
 
 .body {
-    font-family: 'Red Hat Display', sans-serif;
     display: flex;
     justify-content: center;
     padding: 5rem 0rem 5rem 0rem;
@@ -80,6 +80,8 @@ body {
 .PlanSelect_Change {
     color: hsl(245, 75%, 52%);
     font-weight: 700;
+    transition: 300ms;
+    
 }
 
 .PlanSelect_Change:hover {
@@ -104,6 +106,7 @@ body {
     width: 100%;
     box-shadow: 0rem 0.7rem 2.3rem -1rem hsl(245, 75%, 52%);
     cursor: pointer;
+    transition: 300ms;
 }
 
 .PayButton button:hover {
@@ -120,6 +123,7 @@ body {
     color: hsl(224, 23%, 55%);
     font-weight: 900;
     text-decoration: none;
+    transition: 300ms;
 }
 
 .CancelOrder a:hover {
