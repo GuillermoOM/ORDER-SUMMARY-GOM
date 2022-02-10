@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+body {
+    background-color: hsl(225, 100%, 94%);
+    background-image: url('images/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.body {
+    font-family: 'Red Hat Display', sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 5rem 0rem 5rem 0rem;
+}
+
+.Card {
+    text-align: center;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 0 0.8rem 3rem -1.5rem hsl(224, 23%, 55%);
+    border-radius: 1rem;
+    max-width: 28rem;
+}
+
+/* Header Image */
+.Header_Pic {
+    border-radius: 1rem 1rem 0 0;
+    width: 100%;
+}
+
+/* Title and Subtitle */
+.title {
+    font-size: 25px;
+    font-weight: 900;
+    margin-top: 2rem;
+}
+
+.subtext {
+    font-size: 16px;
+    color: hsl(224, 23%, 55%);
+    margin: 0 3rem 1rem 3rem;
+}
+
+/* Plan Select Block */
+.PlanSelect {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: hsl(225, 100%, 98%);
+    margin-left: 9%;
+    margin-right: 9%;
+    padding: 2rem 1.5rem 2rem 1.5rem;
+    border-radius: 1rem;
+    height: 2rem;
+}
+
+.PlanSelect_Sub {
+    display: flex;
+    align-items: center;
+}
+
+.PlanSelect_Sub img {
+    width: 2.7rem;
+}
+
+.PlanSelect_Sub_Details {
+    margin-left: 1rem;
+}
+
+.PlanSelect_Sub_Details_Name {
+    font-weight: 900;
+    margin-bottom: 0.2rem;
+}
+
+.PlanSelect_Sub_Details_Price {
+    font-weight: 700;
+    color: hsl(224, 23%, 55%);
+}
+
+.PlanSelect_Change {
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
+}
+
+.PlanSelect_Change:hover {
+    color: #766cf1;
+    text-decoration: none;
+}
+
+/* Payment */
+.PayButton {
+    margin: 2rem 9% 2rem 9%;
+}
+
+.PayButton button {
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    border: none;
+    border-radius: 1rem;
+    text-decoration: none;
+    font-family: 'Red Hat Display';
+    font-weight: 900;
+    padding: 1rem;
+    width: 100%;
+    box-shadow: 0rem 0.7rem 2.3rem -1rem hsl(245, 75%, 52%);
+    cursor: pointer;
+}
+
+.PayButton button:hover {
+    background-color: #766cf1;
+    box-shadow: 0rem 0.7rem 2.3rem -1rem #766cf1;
+}
+
+/* Cancel */
+.CancelOrder {
+    margin: 1rem 0 3rem 0;
+}
+
+.CancelOrder a {
+    color: hsl(224, 23%, 55%);
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.CancelOrder a:hover {
+    color: hsl(223, 47%, 23%);
+}
+
+/* Outside Card Footer */
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    color: hsl(0, 0%, 0%); 
+}
+
+.attribution a {
+    color: hsl(224, 23%, 55%); 
+}
